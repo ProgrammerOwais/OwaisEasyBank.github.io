@@ -1,5 +1,7 @@
 # Frontend Mentor - Easybank landing page Challenge
 
+https://programmerowais.github.io/OwaisEasyBank.github.io/
+
 ### Live site url:
 
 ## The Purpose:
