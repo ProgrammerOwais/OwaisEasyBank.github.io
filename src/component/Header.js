@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Header = () => {
+  const [toggle, setToggle] = useState(false);
   return (
     <header>
       <div className="header-div">
-        <div className="header-row content-div">
+        <div
+          className={`header-row content-div ${
+            toggle ? "hamburger-toggle" : ""
+          }`}
+        >
           <div className="header-col header-col1">
             <svg xmlns="http://www.w3.org/2000/svg" width="139" height="20">
               <defs>
@@ -72,9 +77,8 @@ const Header = () => {
             <button className="invite-btn header-btn">Request Invite</button>
             <svg
               onClick={() => {
-                document
-                  .querySelector(".header-row")
-                  .classList.toggle("hamburger-toggle");
+                setToggle(!toggle);
+                console.log(toggle);
               }}
               xmlns="http://www.w3.org/2000/svg"
               className="hamburger"
@@ -87,9 +91,8 @@ const Header = () => {
             </svg>
             <svg
               onClick={() => {
-                document
-                  .querySelector(".header-row")
-                  .classList.toggle("hamburger-toggle");
+                setToggle(!toggle);
+                console.log(toggle);
               }}
               className="close-hamburger"
               xmlns="http://www.w3.org/2000/svg"
