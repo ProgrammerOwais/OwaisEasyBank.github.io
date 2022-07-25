@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OwaisEasyBank.github.io/static/css/main.166fbeac.css",
-    "main.js": "/OwaisEasyBank.github.io/static/js/main.0536a17c.js",
+    "main.js": "/OwaisEasyBank.github.io/static/js/main.0325e8a5.js",
     "static/js/787.419af693.chunk.js": "/OwaisEasyBank.github.io/static/js/787.419af693.chunk.js",
     "static/media/currency.jpg": "/OwaisEasyBank.github.io/static/media/currency.1b385bf9f62bf25ef22d.jpg",
     "static/media/restuarant.jpg": "/OwaisEasyBank.github.io/static/media/restuarant.1951b57675babfd83c6c.jpg",
@@ -10,11 +10,11 @@
     "static/media/confet.jpg": "/OwaisEasyBank.github.io/static/media/confet.67921b1124297023a080.jpg",
     "index.html": "/OwaisEasyBank.github.io/index.html",
     "main.166fbeac.css.map": "/OwaisEasyBank.github.io/static/css/main.166fbeac.css.map",
-    "main.0536a17c.js.map": "/OwaisEasyBank.github.io/static/js/main.0536a17c.js.map",
+    "main.0325e8a5.js.map": "/OwaisEasyBank.github.io/static/js/main.0325e8a5.js.map",
     "787.419af693.chunk.js.map": "/OwaisEasyBank.github.io/static/js/787.419af693.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.166fbeac.css",
-    "static/js/main.0536a17c.js"
+    "static/js/main.0325e8a5.js"
   ]
 }
